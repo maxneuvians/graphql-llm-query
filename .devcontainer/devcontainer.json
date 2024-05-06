@@ -1,0 +1,14 @@
+{
+	"name": "GrapQL LLM Query",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"containerEnv": {
+		"SHELL": "/bin/zsh"
+	},
+	"features": {},
+	"extensions": [
+		"redhat.vscode-yaml",
+		"github.copilot",
+	]
+}
